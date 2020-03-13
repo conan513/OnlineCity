@@ -60,9 +60,9 @@ namespace ServerOnlineCity
                     file.WriteLine(jsonText);
                 }
 
-                Console.WriteLine("Created Settings.json, server was been stopped");
-                Console.WriteLine($"RU: Настройте сервер, заполните {jsonFile}");
-                Console.WriteLine("Enter some key");
+                Console.WriteLine("Created the world config file, server was been stopped for now.");
+                Console.WriteLine("Check Settings.json in World folder if you want and restart the server.");
+                Console.WriteLine("Press any key to close this window...");
                 Console.ReadKey();
                 return;
             }
