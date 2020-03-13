@@ -9,7 +9,7 @@ namespace ServerCore.Model
 {
     public class ServerSettings : IValidatableObject
     {
-        public string ServerName { get; set; } = "Another OnlineCity Server";
+        public string ServerName { get; set; } = "Single Player Project";
         public int SaveInterval { get; set; } = 10000;
         public int Port { get; set; } = SessionClient.DefaultPort;
 
@@ -48,7 +48,7 @@ namespace ServerCore.Model
         /// <summary>
         /// Директория где храняется моды
         /// </summary>
-        public string ModsDirectory { get; set; } = "C:\\Games\\RimWorld\\Mods";
+        public string ModsDirectory { get; set; } = ".\\Mods";
 
         /// <summary>
         /// For using steam workshop folder
